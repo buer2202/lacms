@@ -1,0 +1,59 @@
+body {font: 14px/28px "Microsoft Yahei","Tahoma","SimSun";}
+body.in {padding-left: 200px; padding-bottom: 40px;}
+body.in>.panel {margin-bottom: 60px; margin-top: 20px;}
+.panel-login {width: 300px; margin:50px auto;}
+.panel-register {width:400px; margin:50px auto;}
+.panel-login .panel-body, .panel-register .panel-body {padding:20px;}
+.panel-login input, .panel-login .verify img, .panel-register .verify img {margin: 10px 0px;}
+.panel-login .btn {width: 100px; margin: 0px;}
+.panel-register .btn {width: 100px;}
+.panel-register label {padding-right: 0px;}
+.panel-register .form-group:last-of-type {margin-bottom: 0px;}
+.panel-login .register, .panel-register .login {text-align: right; margin-top:10px;}
+.panel-login .register a, .panel-register .login a {font-size: 12px; color: #999;}
+
+.footer {width:100%; position: fixed; bottom:0px; border-top:1px solid #ccc; padding: 5px 10px; background: #fff;}
+
+.sidenav {background: #222; height: 100%; width: 200px; position: fixed; left: 0px; top: 50px;}
+.sidenav .menu {padding: 0px; margin: 20px 0px 0px 0px;}
+.sidenav .menu li {border: 0px; padding: 0px; margin-left: 20px; margin-top: 3px; background: #222; font-size: 16px; list-style: none;}
+.sidenav .menu li a {padding: 5px 20px; display: block; color: #eee; text-decoration: none;}
+.sidenav .menu li:hover {background: #666;}
+.sidenav .menu li.active {font-weight: bold; background: #fff;}
+.sidenav .menu li.active a {color: #333;}
+
+#img-preview {padding: 0px; margin: 0px;}
+#img-preview li {list-style: none; position: relative;}
+#img-preview a.remove {position: absolute; top: 5px; right: 5px;}
+
+.typeahead {position: absolute; left: 15px; z-index: 100; display: none;}
+.typeahead li:hover {background: #cecece; cursor: pointer;}
+.typeahead i {background: #ff0; font-style: normal;}
+
+.unread p {font-weight: bold;}
+.message-detail {display: none;}
+.pagenav {text-align: center;}
+
+#role .list-group-item small{
+    color: #aaa;
+}
+#role .list-group-item .button-span{
+    float: right;
+    text-align: right;
+}
+#role .list-group-item.forbidden strong{
+    color: #aaa;
+}
+#role .new-role input {
+    display: inline-block;
+}
+
+#rule strong {
+    width: 20%;
+}
+#rule .list-group-item input{
+    top: 3px;
+}
+#rule #submit {
+    margin-top: 20px;
+}

@@ -1,0 +1,137 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+    margin:0 auto;
+    background-color:#fff;
+    padding:0; margin:0;
+    font-family:"PingHei","PingFang SC","Helvetica Neue","Helvetica","STHeitiSC-Light","Microsoft YaHei","Arial",sans-serif;
+    }
+ul,dl,dt,dd,h1,h2,h3,h4,h5,h6,form,p,input { padding:0; margin:0;}
+ul { list-style:none;}
+img { border:0; font-size: 0; vertical-align: middle; -ms-interpolation-mode: bicubic;}
+a{color:#565253;text-decoration:none;outline:none;outline:0; font-family:"PingHei","PingFang SC","Helvetica Neue","Helvetica","STHeitiSC-Light","Microsoft YaHei","Arial",sans-serif;}
+a:focus{outline:0;}
+a:hover{color:#1980df;outline:none;outline:0;}
+a,a img,input,li{-webkit-transition:All 0.20s ease;-moz-transition:All 0.20s ease ;-ms-transition:All 0.20s ease;-o-transition:All 0.20s ease;transition:All 0.20s ease;}
+input,select{vertical-align:middle;}
+.clear {clear:both;height:0;font-size: 1px;line-height: 0px; visibility: hidden; *display:inline;/*IE only*/}
+
+.top{ width:1140px; margin:0 auto; height:82px; overflow:hidden;}
+.top .logo{ float:left; display:inline; width:208px; height:55px; margin-top:14px; margin-right:35px;}
+.menu{ height:82px; line-height:82px;}
+.menu ul li{ float:left; display:inline; margin-left:85px;}
+.menu ul li a{ font-family:"微软雅黑"; font-size:16px; display:inline-block; height:82px;-webkit-transition:All 0.30s ease;-moz-transition:All 0.30s ease ;-ms-transition:All 0.30s ease;-o-transition:All 0.30s ease;transition:All 0.30s ease;}
+.menu ul li a:hover{ background:url(/image/pic/index_9.jpg) center bottom no-repeat; color:#1980df;}
+.menu_yiny{ width:100%; height:4px; background:url(/image/pic/index_1.png) repeat-x; position:absolute; left:0; top:0; z-index:99;}
+
+#banner{ height:498px;overflow:hidden; position:relative;}
+#nav{width:100px;margin:0 auto;padding-top:464px;}
+#nav ul li{background:url(/image/pic/dotted.png) no-repeat 0 0;width:12px;height:12px;float:left; margin:0 4px;}
+#nav ul li a{display:block;width:12px;height:12px; text-indent:-9999px;}
+#nav ul .showPage{background:url(/image/pic/dotted_on.png) no-repeat 0 0;width:12px;height:12px;float:left;}
+.bgstretcher-area { text-align: left; }
+.bgstretcher, .bgstretcher UL, .bgstretcher UL LI {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.bgstretcher UL, .bgstretcher UL LI {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.bgstretcher {
+    background: black;
+    overflow: hidden;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    _position: absolute; /*IE6 doesn't support fixed positioning*/
+    top: 0;
+    left: 0;
+}
+
+.content{ width:1140px; margin:0 auto; overflow:hidden;}
+.xwgg{ margin-top:37px;}
+.xwgg_tit{ width:150px; margin:0 auto; height:60px; background:url(/image/pic/index_2.jpg) center top no-repeat; margin-bottom:35px;}
+.xwgg dl{ width:318px; height:290px; overflow:hidden; float:left; display:inline; margin-right:92px;}
+.xwgg dl dt{ text-align:center;}
+.xwgg dl dt a{ font-weight:bold; color:#666;}
+.xwgg dl dt a:hover{ color:#1980df; text-decoration:underline;}
+.xwgg dl dt a img{ margin-top:16px; margin-bottom:10px;width: 318px;height: 162px;}
+.xwgg dl dd{ line-height:28px;}
+.xwgg dl dd a{ color:#666; font-size:14px;}
+.xwgg dl dd a:hover{ color:#1980df; text-decoration:underline;}
+
+.cpjz{ margin-top:58px; line-height:32px; font-family:"微软雅黑",Arial, Helvetica, sans-serif; font-size:14px;}
+.cpjz_tit{ width:150px; margin:0 auto; height:60px; background:url(/image/pic/index_3.jpg) center top no-repeat; margin-bottom:35px;}
+.cpjz ul{ width:1140px;}
+.cpjz ul li{ float:left; display:inline; margin-right:36px; width:132px; text-align:center;}
+.cpjz a{ font-size:14px; font-family:"微软雅黑",Arial, Helvetica, sans-serif;}
+
+.hzhb{ margin-top:58px; line-height:32px; font-family:"微软雅黑",Arial, Helvetica, sans-serif; font-size:14px;}
+.hzhb_tit{ width:150px; margin:0 auto; height:60px; background:url(/image/pic/index_4.jpg) center top no-repeat; margin-bottom:35px;}
+.hzhb ul li{ width:166px; height:84px; overflow:hidden; border:1px solid #cccccc; float:left; display:inline; margin-right:26px;}
+.hzhb ul li img {width:166px; height:84px;border: none;}
+
+.bottom{ height:316px; background:url(/image/pic/index_5.gif) repeat-x; margin-top:36px; font-family:"微软雅黑";}
+.bottom_top{ width:1140px; margin:0 auto; height:216px;}
+.bottom_top dl{ float:left; display:inline; margin-right:64px; line-height:30px; margin-top:22px;}
+.bottom_top dl dt { color:#cecece; font-size:14px;}
+.bottom_top dl dd a{ color:#cecece; font-size:12px;}
+.bottom_top dl dd a:hover{ color:#1980df; font-size:12px;}
+.bottom_top_kf{ float:left; display:inline; width:130px; height:102px; line-height:16px; margin-left:30px; margin-top:30px; overflow:hidden; font-family:Georgia, "Times New Roman", Times, serif; color:#cecece; font-size:14px;}
+.bottom_top_kf_2{ margin-bottom:22px; margin-top:12px;}
+.bottom_top_wx{ float:left; display:inline; width:100px; margin-left:76px; margin-top:30px; color:#cecece; font-size:12px;}
+.bottom_top_wx p{ font-size:16px;}
+.bottom_top_wx img{ margin-top:12px; margin-bottom:6px;}
+
+.bottom_bot{ width:1140px; margin:0 auto; height:100px; color:#cecece; font-size:12px;}
+.bottom_bot p{ float:left; display:inline; line-height:20px; margin-top:32px; font-family:Arial, Helvetica, sans-serif,"微软雅黑";}
+.bottom_bot img{ float:right; display:inline; margin-top:28px;}
+
+/*以下是内页通用样式**/
+.ny{ width:1140px; margin:0 auto; margin-top:15px; overflow:hidden;}
+.ny_left{ width:205px; float:left; display:inline;}
+.ny_left .ny_left_tit{ width:205px; height:78px;}
+.ny_left .ny_left_ul{ border:1px solid #E5E5E5; border-top:none; width:203px; padding-top:4px;}
+.ny_left .ny_left_ul li{ height:43px; line-height:43px; padding-top:1px;}
+.ny_left .ny_left_ul li a{ display:block; height:43px; font-size:14px; color:#454545; padding-left:27px;}
+.ny_left .ny_left_ul li a:hover{ display:block; background:#f7482d; height:43px; font-size:14px; color:#fff;}
+.ny_left .ny_left_ul .ny_left_on a{ display:block; height:43px; font-size:14px; color:#fff; background:#f7482d;}
+
+.ny_right{ width:935px; min-height:720px; float:right; display:inline;}
+.ny_r_tit{ height:29px; line-height:29px; border-bottom:1px solid #E5E5E5; font-size:12px; text-align:right; color:#000;}
+.ny_r_tit p a{ color:#000; font-size:12px;}
+.ny_r_tit p a:hover{ color:#f7482d; text-decoration:underline;}
+.ny_r_tit p span{ color:#f7482d;}
+.ny_r{ height:65px; margin-top:45px; width:884px; border-bottom:1px solid #e5e5e5; margin-left:52px;}
+.ny_r img{ float:left; display:inline;}
+.ny_r span{ font-size:16px; float:right; display:inline; color:#737373; margin-top:10px;}
+
+
+.ny_banner_about{ background:url(../img/ny_banner_about.jpg) center top no-repeat; height:216px; overflow:hidden;}
+.ny_banner_news{ background:url(../img/ny_banner_news.jpg) center top no-repeat; height:216px; overflow:hidden;}
+.ny_about{ width:884px; margin-left:52px; margin-top:28px; line-height:30px; font-size:16px; color:#656565;}
+.ny_about p{ text-indent:2em;}
+.ny_news{ width:884px; margin-left:52px; margin-top:28px; line-height:28px; font-size:16px; color:#656565;}
+.ny_news dl{ height:165px; line-height:36px; overflow:hidden; border-bottom:1px dashed #e5e5e5; position:relative; margin-bottom:28px;}
+.ny_news dl dt{ width:188px; height:142px; border:1px solid #e5e5e5; float:left; display:inline;}
+.ny_news dl dt img{ margin-left:2px; margin-top:2px; width:184px; height:138px; overflow:hidden;}
+.ny_news dl dd{ width:660px; height:165px; float:right; display:inline; font-size:12px; line-height:30px;}
+.ny_news dl dd h1{ margin-top:5px; margin-bottom:9px;}
+.ny_news dl dd h1 a{ font-weight:bold; color:#666; font-size:16px;}
+.ny_news dl dd h1 a:hover{ color:#1980df; font-weight:bold;}
+.ny_news dl dd p{ height:109px; overflow:hidden;}
+.xq{ position:absolute; bottom:25px; right:0; color:#656565; font-size:12px; text-decoration:none;}
+.xq:hover{ color:#1980df;}
+
+.pagination li a, .pagination li span {display: block;float: left;border: 1px solid #ccc;padding-top:6px;width: 30px;height:24px;margin-left:20px;text-align: center;font-size: 14px;border-radius:3px;}
+.pagination li a {box-shadow:1px 1px 0px #ccc;}
+.pagination li.active span {background-color: orange;font-weight: bold; color: #fff;}
+.pagination li.disabled {display: none;}
+
+.ny_xq{ width:884px; margin-left:52px; margin-top:28px; line-height:28px; font-size:16px; color:#565253; line-height:36px;}
+.ny_xq h1{ font-weight:300; font-size:28px; color:#565253; margin-bottom:6px;}
+.ny_xq_tit{ font-size:14px; color:#bbbbbb; margin-bottom:13px;}
+.ny_xq img{ margin-bottom:22px;}
