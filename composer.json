@@ -9,7 +9,7 @@
         "predis/predis": "1.0.*"
     },
     "license": "buer2202",
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "autoload": {
         "files": [
             "app/Libraries/Helpers/helper.php"
