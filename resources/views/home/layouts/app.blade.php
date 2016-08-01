@@ -77,7 +77,9 @@
         float: right;
     }
     </style>
-    <script src="/js/jquery-1.5.2.min.js"></script>
+    <script src="/js/jquery-1.11.3.min.js"></script>
+
+    @if($riskWarning)
     <script type="text/javascript" src="/plugins/jsScrolling/jsScroller.js"></script>
     <script type="text/javascript" src="/plugins/jsScrolling/jsScrollbar.js"></script>
     <script type="text/javascript" src="/plugins/jsScrolling/jsScrollerTween.js"></script>
@@ -109,6 +111,8 @@
         });
     }
     </script>
+    @endif
+
     @yield('css')
 </head>
 <body>

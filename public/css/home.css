@@ -135,3 +135,17 @@ input,select{vertical-align:middle;}
 .ny_xq h1{ font-weight:300; font-size:28px; color:#565253; margin-bottom:6px;}
 .ny_xq_tit{ font-size:14px; color:#bbbbbb; margin-bottom:13px;}
 .ny_xq img{ margin-bottom:22px;}
+
+.login_type{width:100%}
+.login_type div{float:left;width:50%;text-align:center;background:#434343;color:#fff;height:35px;line-height:35px;cursor:pointer;font-size: 14px;}
+.login_type .login_type_on{background:#b9a17b}
+.login_fromp{padding:10px}
+.ipt{border:solid 1px #d2d2d2;border-left-color:#ccc;border-top-color:#ccc;border-radius:2px;box-shadow:inset 0 1px 0 #f8f8f8;background-color:#fff;padding:4px 6px;line-height:21px;color:#555;width:150px;vertical-align:baseline}
+.login_formp_sub{padding-top:30px;text-align:center}
+.login_formp_reg{font-size:12px;text-align:center;color:#666;padding-top:35px}
+.login_tips{width:100%;font-size:12px;background:red;color:#fff;text-align:center;margin-top:20px;display:none}
+.lr_2{display:none}
+#login_submit{width:220px;height:40px;font-size:14px;background-color:#434343;display: block;text-align: center;line-height: 38px;color: #fff;font-size:14px;margin:0 auto;cursor: pointer;}
+#login_submit:hover{background-color:#b9a17b;}
+#reg_submit{width:220px;height:40px;line-height:40px;font-size:14px}
+.reg_tips{width:100%;font-size:12px;background:red;color:#fff;text-align:center;margin-top:10px;display:none}

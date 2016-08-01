@@ -16,6 +16,10 @@ Route::group(['middleware' => 'home'], function () {
     Route::get('/category/{cid}', 'Home\CategoryController@index')->name('category');
     Route::get('/document/{did}', 'Home\DocumentController@index')->name('document');
     Route::get('/agreeterms', 'Home\IndexController@agreeterms');
+
+    Route::match(['get', 'post'], '/product', 'Home\ProductController@index')->name('product');
+    Route::get('/product/{cid}', 'Home\ProductController@index');
+    Route::get('/fofuserlogout', 'Home\ProductController@logout');
 });
 
 // 认证
@@ -74,6 +78,14 @@ Route::group(['middleware' => 'auth'], function () {
     Route::post('/admin/group/removecontent', 'Admin\GroupController@removecontent')->name('admin_group_removecontent');
 
     Route::get('/admin/group/searchcontent', 'Admin\GroupController@searchcontent')->name('admin_group_searchcontent');
+
+    /*fof用户权限*/
+    Route::get('/admin/fofuserauth', 'Admin\FofUserAuthController@index');
+
+    Route::delete('/admin/fofuserauth/ajaxdel', 'Admin\FofUserAuthController@ajaxdel')->name('fofuserdel');
+
+    Route::get('/admin/fofuserauth/editor', 'Admin\FofUserAuthController@editor')->name('fofusereditor');
+    Route::post('/admin/fofuserauth/updateorcreate', 'Admin\FofUserAuthController@updateOrCreate')->name('adminfofuserupdateorcreate');
 
     /*修改登陆密码*/
     Route::get('/admin/user/resetPassword', 'Admin\UserController@resetPassword');

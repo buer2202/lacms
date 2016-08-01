@@ -15,9 +15,11 @@ class CategoryController extends Controller
 {
     public function index(Category $category, $cid)
     {
+
         // 分类信息
         $cate = $category->where('cid', $cid)->where('status', 1)->where('nav_show', 1)->first();
         if(!$cate) abort(404);
+        if($cate->parent_cid == 3) return redirect()->route('product');    // 屏蔽产品分类
 
         // 边栏菜单
         if($cate->level == 1) {

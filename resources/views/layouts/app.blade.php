@@ -41,6 +41,9 @@
                 <ul class="nav navbar-nav">
                     <li><a href="{{ url('/admin/group') }}">群组管理</a></li>
                 </ul>
+                <ul class="nav navbar-nav">
+                    <li><a href="{{ url('/admin/fofuserauth') }}">用户产品</a></li>
+                </ul>
 
                 <!-- Right Side Of Navbar -->
                 <ul class="nav navbar-nav navbar-right">

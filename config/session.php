@@ -163,4 +163,5 @@ return [
 
     'http_only' => true,
 
+    'fof_user_session_key' => 'fofUserId',
 ];
